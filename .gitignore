@@ -1,0 +1,44 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+
+# Ignore specific files, usually environment variables and sensitive information
+.env
+
+# Virtualenv
+queenai-env/
+
+# Python artifacts:
+*.pyc
+*.pyo
+*.pyd
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
